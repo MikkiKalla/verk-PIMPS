@@ -1,1 +1,272 @@
-.css skjal
+body {
+	background-color: #f0f0f0;
+}
+
+h1, h2, h3 {
+	font-family: 'Oswald', sans-serif;
+	color: #4f4f4f;
+
+}
+	
+p, a, h4 {
+	font-family: 'Roboto Condensed', sans-serif;
+}
+img {
+	width: 100%
+}
+.movieboxlogo {
+	max-width: 130px;
+	height: auto;
+	min-width: 52px;
+	height: auto;
+}
+.slide-content {
+   height: 275px;
+}
+.textOverlayBg {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	padding-top:  101px;
+   background-color: rgba(255, 255, 255, 0.8);
+	box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.19);
+}
+.image {
+   position: relative; 
+   width: 100%; 
+
+}
+.textOverlayH3{ 	
+   position: absolute; 
+   bottom: 58px;
+   left: 10px; 
+   width: 100%;
+   font-size: 20px;
+}
+.textOverlayA {
+	position: absolute; 
+   bottom: 43px; 
+   left: 10px; 
+   width: 100%;
+   font-size: 10px;
+   color: #3D6390;
+}
+.textOverlayP {
+	position: absolute; 
+   bottom: -5px; 
+   left: 10px; 
+   width: 100%;
+   font-size: 10px
+}
+.textOverlayC {
+	position: absolute; 
+   bottom: 8px; 
+   right: 8px; 
+   width: 100%;
+}
+.circleBase {
+    border-radius: 50%;
+    background-color: orange;
+}
+.type2 {
+    width: 27px;
+    height: 27px;
+    background: #E7833B;
+    display: flex;
+    align-items: center;
+}
+.rating {
+	font-size: 12px;
+	color: #fff;
+	position: absolute;
+    right: 6px;
+
+}
+#welcomeH1 {
+	font-style: normal;
+	font-size: 5vw;
+	font-weight: 300;
+	line-height: 100%;
+	color: #FFFFFF;
+	text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.05);
+	padding-top: 70px;
+}
+#FavoriteSourceH2 {
+	color: #fff;
+	padding-bottom: 100px;
+}
+
+header {
+	background: linear-gradient(180deg, #FAA20E 0%, rgba(231, 131, 59, 0.870588) 100%);
+	opacity: 1.00;
+	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+ }
+
+header .row {
+	max-width: none;
+}
+.columnPaddingT {
+	padding-top: 13px;
+}
+.columnPadding {
+	padding: 3.5vw 0 1.5vw 0;
+}
+
+#searchicon {
+	width: 50px;
+	height: auto;
+}
+
+.slick-prev:before,
+.slick-next:before {
+	color: #000;
+}
+.slick-slide {
+    margin: 0 5px;
+}
+
+.button {
+	margin-top: 175px;
+	margin-bottom: 314px;
+	background: #F2994A;
+	border-radius: 10px;
+
+}
+.buttonH1 {
+	font-family: 'Roboto Condensed', sans-serif; 
+	font-weight: 500;
+	padding-bottom: 0px;
+	padding-top: 6px;
+	line-height: 100%;
+	color: #FFFFFF;
+}
+
+
+.footer {
+	padding-top: 53px;
+	padding-bottom: 20px;
+	background: linear-gradient(180deg, #FAA20E 50%, #E7833B 85.88%);
+}
+.footerlogodiv {
+	margin-bottom: 51px;
+}
+.footerA {
+	font-family: 'Oswald', sans-serif;
+	color: #fff;
+	font-size: 20px;
+	margin: 0 24px;
+	padding-top: 51px;
+	padding-bottom: 71px;
+}
+.copyrightrow {
+	margin-right: 0px;
+}
+.copyright {
+	padding-top: 20px;
+	font-family: 'Oswald', sans-serif;
+	color: #fff;
+	font-size: 16px;
+	text-align: center;
+}
+
+/****************************Mobile******************/
+
+@media screen and (max-width: 478px) {
+
+	#searchicon {
+	width: 20px;
+	height: auto;
+	}
+
+	#welcomeH1 {
+		font-size: 8vw;
+		padding-top: 60px;
+		padding-bottom: 69px;
+	}
+	#FavoriteSourceH2 {
+		display: none;
+	}
+	.slick-slide {
+    margin: 0 0;
+    
+	}
+	.slide-content {
+	height: 236px;
+	}
+	.textOverlayBg {
+	position: absolute;
+	bottom: 0;
+	width: 70%;   
+	padding-top:  100%;
+	margin-left: 60%;
+	background-color: rgba(255, 255, 255, 0.8);
+	box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.19);
+	-webkit-transform: skewX(-25deg);
+	  -moz-transform: skewX(-25deg);
+	  -ms-transform: skewX(-25deg);
+	  -o-transform: skewX(-25deg);
+	  transform: skewX(-25deg);
+	}
+	.skew {
+	width: 60%;
+	margin-left: 25%;
+		-webkit-transform: skewX(25deg);
+	  -moz-transform: skewX(25deg);
+	  -ms-transform: skewX(25deg);
+	  -o-transform: skewX(25deg);
+	  transform: skewX(25deg);
+	}
+	.textOverlayH3{ 	
+   position: absolute; 
+   bottom: 65px;
+   left: 20px; 
+   width: 100%;
+   font-size: 30px;
+	}
+	.textOverlayA {
+		display: none;
+	}
+	.textOverlayP {
+		position: absolute; 
+	   bottom: 5px; 
+	   left: -20px; 
+	   width: 100%;
+	   font-size: 14px
+	}
+	.textOverlayC {
+		position: absolute; 
+	   bottom: 17px; 
+	   right: 0px; 
+	   width: 100%;
+	}
+	.circleBase {
+	    border-radius: 50%;
+	    background-color: orange;
+	}
+	.type2 {
+	    width: 32px;
+	    height: 32px;
+	    background: #E7833B;
+	    display: flex;
+	    align-items: center;
+	}
+	.rating {
+		font-size: 13px;
+		color: #fff;
+		position: absolute;
+	    right: 8px;
+
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
