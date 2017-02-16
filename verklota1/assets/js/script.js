@@ -1,15 +1,20 @@
 $(document).ready(function(){
 	$('.superslider').slick({
 		arrows: false,
-		dots: true
+		dots: true,
+    slidesToShow: 2.5,
+    slidesToScroll: 2,
+    dots: false,
 	});
+
+$(document).foundation();
 
 });
 
 $('.responsive').slick({
   arrows: true,
   dots: false,
-  infinite: false,
+  infinite: true,
   speed: 300,
   slidesToShow: 4,
   slidesToScroll: 2,
@@ -43,8 +48,6 @@ $('.responsive').slick({
         dots: false
       }
     }
-    // You can unslick at a given breakpoint now by adding:
-    // settings: "unslick"
-    // instead of a settings object
   ]
 });
+
