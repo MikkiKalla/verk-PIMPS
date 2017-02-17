@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 let r = new XMLHttpRequest();
 r.open("GET", "https://api.themoviedb.org/3/discover/movie?api_key=fdf806fd1275ea7699d8e2ad53e054e2");
 r.onreadystatechange = function () {
@@ -26,6 +27,20 @@ r.onreadystatechange = function () {
     const getGenre = IdInfo.getGenres(genre);
 
 
+=======
+$(document).ready(function(){
+	$('.superslider').slick({
+		arrows: false,
+		dots: true,
+    slidesToShow: 2.5,
+    slidesToScroll: 2,
+    dots: false,
+	});
+
+$(document).foundation();
+
+});
+>>>>>>> cf41d74c1c416a854a9e57ec3f27054e7ce55d0e
 
     let movieStr = `\
       <div class="slide-content image"><a href="#"><img src="${poster_loc}"></a> 
@@ -46,7 +61,12 @@ r.onreadystatechange = function () {
 
 $(movieList).slick({
   arrows: true,
+<<<<<<< HEAD
   dots: false,    infinite: true,
+=======
+  dots: false,
+  infinite: true,
+>>>>>>> cf41d74c1c416a854a9e57ec3f27054e7ce55d0e
   speed: 300,
   slidesToShow: 4,
   slidesToScroll: 2,
@@ -79,6 +99,7 @@ $(movieList).slick({
          dots: false
        }
     }
+<<<<<<< HEAD
       // You can unslick at a given breakpoint now by adding:
       // settings: "unslick"
       // instead of a settings object
@@ -159,3 +180,8 @@ class generalInfo {
 //     // instead of a settings object
 //   ]
 // });
+=======
+  ]
+});
+
+>>>>>>> cf41d74c1c416a854a9e57ec3f27054e7ce55d0e
