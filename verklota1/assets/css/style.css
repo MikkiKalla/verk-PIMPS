@@ -20,8 +20,70 @@ img {
 	min-width: 52px;
 	height: auto;
 }
+#leitSvart {
+	float: right;
+}
+#searchInput {
+	margin-top: 50px;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-color: #E7833B;
+    box-shadow: none;
+    border-radius: 0px;
+}
+input#searchInput {
+	background-image:url('../../images/LEIT-svart.svg');
+	background-repeat: no-repeat;
+	background-position: right;
+}
+.slider-handle {
+	background-color: #FAA20E;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	border: solid;
+    border-width: thick;
+    border-color: rgba(255, 255, 255, 0.6);
+}
+.slider-handle:hover{
+	background-color: #FAA20E;
+}
+span.slider-fill {
+	background-color: #FAA20E;
+}
+.slider {
+	border: 5px dotted #f0f0f0;
+	border-style: none none dotted;
+	color: #fff; background-color: #fff;
+}
 .slide-content {
    height: 275px;
+   width: 100%;
+}
+input#sliderOutput1 {
+	display: inline;
+    border-color: #fff;
+    box-shadow: none;
+}
+input#sliderOutput2 {
+	display: inline;
+    float: right;
+    border-color: #fff;
+    box-shadow: none;
+    text-align: right;
+}
+input#sliderOutput3 {
+	display: inline;
+    border-color: #fff;
+    box-shadow: none;
+}
+input#sliderOutput4 {
+	display: inline;
+    float: right;
+    border-color: #fff;
+    box-shadow: none;
+    text-align: right;
 }
 .textOverlayBg {
 	position: absolute;
@@ -34,7 +96,6 @@ img {
 .image {
    position: relative; 
    width: 100%; 
-
 }
 .textOverlayH3{ 	
    position: absolute; 
@@ -130,7 +191,30 @@ header .row {
 	margin-bottom: 314px;
 	background: #F2994A;
 	border-radius: 10px;
-
+}
+.button:hover {
+	background-color: #FAA71A;
+}
+.buttonSearch{
+	margin-top: 65px;
+	margin-bottom: 45px;
+}
+.button1 {
+	color: #E84B33;
+	font-style: bold;
+	border: 2px solid #E84B33;
+	box-sizing: border-box;
+	border-radius: 20px;
+	margin-top: 175px;
+	margin-bottom: 314px;
+	background: #FFF;
+	border-radius: 30px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+.button1:hover {
+	background-color: #fff;
+	color: #000;
 }
 .buttonH1 {
 	font-family: 'Roboto Condensed', sans-serif; 
@@ -141,6 +225,21 @@ header .row {
 	color: #FFFFFF;
 }
 
+.button-group .button {
+	margin-right: 12px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.button-group input{
+  display: none;
+}
+
+.button-group input:checked + label,
+.button-group input:checked + label:active {
+  background-color: #E84B33;
+  color: #fff;
+}
 
 .footer {
 	padding-top: 53px;
@@ -168,6 +267,8 @@ header .row {
 	font-size: 16px;
 	text-align: center;
 }
+
+.slick-slide:focus { outline: none; }
 
 /****************************Mobile******************/
 
@@ -256,6 +357,15 @@ header .row {
 		position: absolute;
 	    right: 8px;
 
+	}
+	.MovieModal {
+		width: 90%;
+		left: 5%;
+		height: 75%;
+		min-height: 72%;
+	}
+	footer a {
+		display: none;
 	}
 
 }
