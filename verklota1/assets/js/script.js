@@ -27,8 +27,6 @@ r.onreadystatechange = function () {
     const getGenre = IdInfo.getGenres(genre);
 
 
-<<<<<<< HEAD
-
 $(document).ready(function(){
 	$('.superslider').slick({
 		arrows: false,
@@ -42,8 +40,7 @@ $(document).foundation();
 
 });
 
-=======
->>>>>>> tester
+
 
 $(document).ready(function(){
 	$('.superslider').slick({
@@ -192,10 +189,9 @@ class generalInfo {
 //     // instead of a settings object
 //   ]
 // });
-<<<<<<< HEAD
 
-=======
+
 //   ]
 // });
->>>>>>> tester
+
 
