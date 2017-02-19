@@ -27,6 +27,7 @@ r.onreadystatechange = function () {
     const getGenre = IdInfo.getGenres(genre);
 
 
+<<<<<<< HEAD
 
 $(document).ready(function(){
 	$('.superslider').slick({
@@ -41,7 +42,21 @@ $(document).foundation();
 
 });
 
+=======
+>>>>>>> tester
 
+$(document).ready(function(){
+	$('.superslider').slick({
+		arrows: false,
+		dots: true,
+    slidesToShow: 2.5,
+    slidesToScroll: 2,
+    dots: false,
+	});
+
+$(document).foundation();
+
+});
     let movieStr = `\
       <div class="slide-content image"><a href="#"><img src="${poster_loc}"></a> 
         <div class="textOverlayBg">
@@ -177,5 +192,10 @@ class generalInfo {
 //     // instead of a settings object
 //   ]
 // });
+<<<<<<< HEAD
 
+=======
+//   ]
+// });
+>>>>>>> tester
 
