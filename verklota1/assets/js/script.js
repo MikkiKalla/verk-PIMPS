@@ -1,11 +1,4 @@
-$(document).ready(function () {
-    $('.splash').css('opacity', '1'); // doing this with jQuery for ease
 
-    // here are the basics, just like your existing code
-    $(".splash").hover(function () {
-        $(this).fadeOut('slow'); // you could also use 
-    });
-});
 
 let r = new XMLHttpRequest();
 r.open("GET", "https://api.themoviedb.org/3/discover/movie?api_key=fdf806fd1275ea7699d8e2ad53e054e2");
@@ -36,10 +29,7 @@ r.onreadystatechange = function () {
     const getGenre = IdInfo.getGenres(genre);
 
 
-<<<<<<< HEAD
 
-=======
->>>>>>> 67a2459205d869a86d4034ed151f878ba24d6c35
 $(document).ready(function(){
 	$('.superslider').slick({
 		arrows: false,
@@ -49,14 +39,10 @@ $(document).ready(function(){
     dots: false,
 	});
 
-  $(document).foundation();
+$(document).foundation();
 
 });
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 67a2459205d869a86d4034ed151f878ba24d6c35
 
 $(document).ready(function(){
 	$('.superslider').slick({
@@ -71,6 +57,7 @@ $(document).foundation();
 
 });
     let movieStr = `\
+      
       <div class="slide-content image"><a href="/#/movie/${id}"><img src="${poster_loc}"></a> 
         <div class="textOverlayBg">
           <div class="skew"> 
@@ -129,9 +116,7 @@ $(movieList).slick({
       // settings: "unslick"
       // instead of a settings object
   ]
-
 });
-
 
 };
 r.send();
@@ -208,11 +193,4 @@ class generalInfo {
 //   ]
 // });
 
-<<<<<<< HEAD
-=======
-
-//   ]
-// });
-
->>>>>>> 67a2459205d869a86d4034ed151f878ba24d6c35
 

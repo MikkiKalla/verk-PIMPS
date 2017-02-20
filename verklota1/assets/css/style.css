@@ -1,7 +1,6 @@
 h1, h2, h3 {
 	font-family: 'Oswald', sans-serif;
 	color: #4f4f4f;
-
 }
 	
 p, a, h4 {
@@ -167,6 +166,7 @@ header .row {
 }
 .columnPadding {
 	padding: 3.5vw 0 1.5vw 0;
+	font-size: 20px ; 
 }
 
 #searchicon {
