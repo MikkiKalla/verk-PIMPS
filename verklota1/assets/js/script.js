@@ -1,3 +1,11 @@
+$(document).ready(function () {
+    $('.splash').css('opacity', '1'); // doing this with jQuery for ease
+
+    // here are the basics, just like your existing code
+    $(".splash").hover(function () {
+        $(this).fadeOut('slow'); // you could also use 
+    });
+});
 
 let r = new XMLHttpRequest();
 r.open("GET", "https://api.themoviedb.org/3/discover/movie?api_key=fdf806fd1275ea7699d8e2ad53e054e2");
@@ -24,10 +32,10 @@ r.onreadystatechange = function () {
     const movie_title = movie.title;
     const rating = movie.vote_average;
     const genre = movie.genre_ids;
+    const id = movie.id;
     const getGenre = IdInfo.getGenres(genre);
 
 
-<<<<<<< HEAD
 
 $(document).ready(function(){
 	$('.superslider').slick({
@@ -38,12 +46,10 @@ $(document).ready(function(){
     dots: false,
 	});
 
-$(document).foundation();
+  $(document).foundation();
 
 });
 
-=======
->>>>>>> tester
 
 $(document).ready(function(){
 	$('.superslider').slick({
@@ -58,7 +64,7 @@ $(document).foundation();
 
 });
     let movieStr = `\
-      <div class="slide-content image"><a href="#"><img src="${poster_loc}"></a> 
+      <div class="slide-content image"><a href="/#/movie/${id}"><img src="${poster_loc}"></a> 
         <div class="textOverlayBg">
           <div class="skew"> 
             <h3 class="textOverlayH3">${movie_title}</h3> 
@@ -116,7 +122,9 @@ $(movieList).slick({
       // settings: "unslick"
       // instead of a settings object
   ]
+
 });
+
 
 };
 r.send();
@@ -192,10 +200,5 @@ class generalInfo {
 //     // instead of a settings object
 //   ]
 // });
-<<<<<<< HEAD
 
-=======
-//   ]
-// });
->>>>>>> tester
 

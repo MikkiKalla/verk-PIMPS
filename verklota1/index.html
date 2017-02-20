@@ -9,11 +9,17 @@
 	<link rel="stylesheet" type="text/css" href="assets/css/slick-theme.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/slick.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/single-page.css">
 		<style type="text/css"></style>
-	<title>Movie Box THIS IS THE TEST SITE!!!?!?!?!?!?!?!?!?!?!!!!!!!!?!?!?!?!?</title>
+	<title>The Movie Box</title>
+
+	<script src="assets/js/handlebars.js"></script>
+	<script type="text/javascript" src="assets/js/router.js"></script>
+	<script type="text/javascript" src="assets/js/app.js"></script>
 </head>
 
 <body>
+<div id="yield">
 	<header>
 		<div class="row align-justify columnPaddingT">
 			<div class="columns small-2 medium-2">
@@ -27,10 +33,10 @@
 			<h1 id="welcomeH1">Welcome to Movie box</h1>
 		</div>
 		<div class="row columns small 12 align-center">
-			<h3 id="FavoriteSourceH2" >Your favorite movie source</h3>
+			<h3 id="FavoriteSourceH2">Your favorite movie source</h3>
 		</div>
 	</header>
-<<<<<<< HEAD
+
 
 <a href=""></a>
 <!--
@@ -56,10 +62,11 @@ Search modal -->
 	</div>
 	<div class="small-12 columns">
 		<div class="slider" data-slider data-initial-start="0" type="range" data-end="10" min="0" max="10" >
-		<span class="slider-handle"  data-slider-handle role="slider" tabindex="1" aria-controls="sliderOutput1"></span>
-		<span class="slider-handle"  data-slider-handle role="slider" tabindex="1" aria-controls="sliderOutput2"></span>
-		<span class="slider-fill" data-slider-fill></span>
-	</div>
+			<span class="slider-handle"  data-slider-handle role="slider" tabindex="1" aria-controls="sliderOutput1"></span>
+			<span class="slider-handle"  data-slider-handle role="slider" tabindex="1" aria-controls="sliderOutput2"></span>
+			<span class="slider-fill" data-slider-fill></span>
+		</div>
+	</div>	
 	<h3>Year</h3>
 	<div>
 		<input class="colums small-4" type="number" id="sliderOutput3">
@@ -67,90 +74,88 @@ Search modal -->
 	</div>
 	<div>
 		<div class="slider" data-slider data-initial-start="1888" type="range" data-end="2017" min="1888" max="2017" >
-		<span class="slider-handle"  data-slider-handle role="slider" tabindex="1" aria-controls="sliderOutput3"></span>
-		<span class="slider-handle"  data-slider-handle role="slider" tabindex="1" aria-controls="sliderOutput4"></span>
-		<span class="slider-fill" data-slider-fill></span>
+			<span class="slider-handle"  data-slider-handle role="slider" tabindex="1" aria-controls="sliderOutput3"></span>
+			<span class="slider-handle"  data-slider-handle role="slider" tabindex="1" aria-controls="sliderOutput4"></span>
+			<span class="slider-fill" data-slider-fill></span>
+		</div>
 	</div>
-</div>
 
-<div class="row">
-	<div class="columns small-4" >
-		<h3>Genre</h3>
-
+	<div class="row">
+		<div class="columns small-4" >
+			<h3>Genre</h3>
+		</div>
+		<div class="columns small-12 superslide"><!-- THIS NEEDS TO BE SUPERSLIDE, OTHER SLIDES WILL BRAKE OTHERWISE-->
+			<div>
+				<form>
+					<div class="button-group">
+						<input id="checkbox1" type="checkbox">
+						<label class="button button1" for="checkbox1">a</label>
+					</div>
+				</form>
+			</div>
+			<div>
+				<form>
+					<div class="button-group">
+						<input id="checkbox2" type="checkbox">
+						<label class="button button1" for="checkbox2">b</label>
+					</div>
+				</form>
+			</div>
+			<div>
+				<form>
+					<div class="button-group">
+						<input id="checkbox3" type="checkbox">
+						<label class="button button1" for="checkbox3">c</label>
+					</div>
+				</form>
+			</div>
+			<div>
+				<form>
+					<div class="button-group">
+						<input id="checkbox4" type="checkbox">
+						<label class="button button1" for="checkbox4">d</label>
+					</div>
+				</form>
+			</div>
+			<div>
+				<form>
+					<div class="button-group">
+						<input id="checkbox5" type="checkbox" tabindex="3">
+						<label class="button button1" for="checkbox5">e</label>
+					</div>
+				</form>
+			</div>
+			<div>
+				<form>
+					<div class="button-group">
+						<input id="checkbox6" type="checkbox">
+						<label class="button button1" for="checkbox6">f</label>
+					</div>
+				</form>
+			</div>
+			<div>
+				<form>
+					<div class="button-group">
+						<input id="checkbox7" type="checkbox">
+						<label class="button button1" for="checkbox7">g</label>
+					</div>
+				</form>
+			</div>
+			<div>
+				<form>
+					<div class="button-group">
+						<input id="checkbox8" type="checkbox">
+						<label class="button button1" for="checkbox8">h</label>
+					</div>
+				</form>
+			</div>
+		</div>
 	</div>
-	<div class="columns small-12 superslide"><!-- THIS NEEDS TO BE SUPERSLIDE, OTHER SLIDES WILL BRAKE OTHERWISE-->
-		<div>
-			<form>
-				<div class="button-group">
-					<input id="checkbox1" type="checkbox">
-					<label class="button button1" for="checkbox1">a</label>
-				</div>
-			</form>
-		</div>
-		<div>
-			<form>
-				<div class="button-group">
-					<input id="checkbox2" type="checkbox">
-					<label class="button button1" for="checkbox2">b</label>
-				</div>
-			</form>
-		</div>
-		<div>
-			<form>
-				<div class="button-group">
-					<input id="checkbox3" type="checkbox">
-					<label class="button button1" for="checkbox3">c</label>
-				</div>
-			</form>
-		</div>
-		<div>
-			<form>
-				<div class="button-group">
-					<input id="checkbox4" type="checkbox">
-					<label class="button button1" for="checkbox4">d</label>
-				</div>
-			</form>
-		</div>
-		<div>
-			<form>
-				<div class="button-group">
-					<input id="checkbox5" type="checkbox" tabindex="3">
-					<label class="button button1" for="checkbox5">e</label>
-				</div>
-			</form>
-		</div>
-		<div>
-			<form>
-				<div class="button-group">
-					<input id="checkbox6" type="checkbox">
-					<label class="button button1" for="checkbox6">f</label>
-				</div>
-			</form>
-		</div>
-		<div>
-			<form>
-				<div class="button-group">
-					<input id="checkbox7" type="checkbox">
-					<label class="button button1" for="checkbox7">g</label>
-				</div>
-			</form>
-		</div>
-		<div>
-			<form>
-				<div class="button-group">
-					<input id="checkbox8" type="checkbox">
-					<label class="button button1" for="checkbox8">h</label>
-				</div>
-			</form>
-		</div>
-	</div>
-</div>
-<div class="row align-center ">
+	<div class="row align-center ">
 		<div class="colums small-10 medium-6 button buttonSearch">
 			<h3 class="buttonH1">Search</h3>
 		</div>
-</div>
-</div>
+	</div>
 </div>
 
 
@@ -186,15 +191,13 @@ Search modal -->
 	<div class="columns small-4" >
 		<h3 class="columnPadding">Popular</h3>
 	</div>
-<<<<<<< HEAD
+
 	<div class="columns small-12 responsive Popular popular-list">
 		
 	</div>
-=======
-<<<<<<< HEAD
+
 	<div class="columns small-12 responsive popular-list"></div>
-=======
->>>>>>> tester
+
 	<div class="columns small-12 responsive">
 		<div class="slide-content image"><a href="#" data-open="myModal"><img src="images/img.png"></a>
 			<div class="textOverlayBg">
@@ -277,9 +280,7 @@ Search modal -->
 			</div>
 		</div>
 	</div>
->>>>>>> cf41d74c1c416a854a9e57ec3f27054e7ce55d0e
 </div>
-
 <div class="row">
 	<div class="columns small-4" >
 		<h3 class="columnPadding">Popular</h3>
@@ -491,12 +492,13 @@ Search modal -->
 	</section>
 </footer>
 
-	
+	</div>
 	<script src="assets/js/jquery.js"></script>
 	<script src="assets/js/foundation.min.js"></script>
 	<script src="assets/js/foundation.reveal.js"></script>
 	<script src="assets/js/slick.min.js"></script>
 	<script src="assets/js/genres.js"></script>
 	<script src="assets/js/script.js"></script>
+	
 </body>
 </html>

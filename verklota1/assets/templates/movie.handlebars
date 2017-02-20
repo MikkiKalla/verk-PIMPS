@@ -1,0 +1,464 @@
+<div class="single-movie-page">
+		<div class="row align-justify columnPaddingT">
+			<div class="columns small-2 medium-2">
+				<a href="index.html">
+					<img class="movieboxlogo" src="images/movie-box.svg">
+				</a>
+			</div>
+			<div class="columns small-2 medium-1 ">
+				<a href="#" data-open="searchModal"><img id="searchicon" src="images/LEIT.svg"></a>
+			</div>
+		</div>
+		<div class="head-photo">
+			<a href="#">
+				<img src="https://image.tmdb.org/t/p/original{{data.backdrop_path}}">
+					<div class="playbutton">
+						<img src="images/play.svg">
+					</div>
+			</a>	
+		</div>
+		
+		<div class="info-container">
+			<div class="unskew">
+				<div class="container">
+					<div class="row">
+						<div class=" columns small-6">
+							<img class="movie-poster" src="https://image.tmdb.org/t/p/original{{data.poster_path}}">
+						</div>
+						<div class="textOverlayC-upper circleBase">
+							<h4 class="rating-one"><strong>{{data.vote_average}}</strong></h4>
+						</div>
+					</div>
+					<div class="row">
+						<div class="columns large-11 movie-title-modify">
+							<h2 class="movie-title">{{data.title}}</h2>
+						</div>
+					</div>
+					<div class="row pos-mod-top">
+						<div class="columns large-3 position-mod"></div>
+						<div class="columns expand year">
+							<h3>{{data.release_date}}</h3>
+						</div>
+					</div>
+					<div class="row pos-middle-top">
+						<div class="columns large-3 position-mod-other"></div>
+						<div class="row columns expand writer-director">
+							<h3>Director:</h3>
+							<h4 class="director">{{Lipsum}}</h4>
+						</div>
+					</div>
+					<div class="row pos-bottom-top">
+						<div class="columns large-3 position-mod-other"></div>
+						<div class="row columns expand writer-director">
+							<h3>Writer:</h3>
+							<h4 class="writer">{{lipsum}}</h4>
+							
+						</div>
+					</div>
+					<div class="row columns large-11 dur-row">
+						<div class="row columns large-8 movie-info">
+							<h3 class="movie-info-h3">Duration:</h3>
+							<h4 class="movie-info-h4">2h 13min</h4>
+						</div>
+						<div class="row columns large-8 movie-info">
+							<h3>Genre: </h3>
+							<h4>{{this.getGenre}}</h4>
+						</div>
+					</div>
+					<div class="row">
+						<div class="columns small-12 medium-6 large-6 bg"><!-- STILLS div -->
+							<h1>Stills</h1>
+							<div class="row row2">
+								<div class=" columns large-6 medium-6 small-6">
+									<img class="imgbg" src="img/rogue-one.jpg">
+								</div>
+								<div class=" columns large-6 medium-6 small-6">
+									<img class="imgbg" src="img/rogue-one.jpg">
+								</div>
+								<div class=" columns large-6 medium-6 small-6">
+									<img class="imgbg" src="img/rogue-one.jpg">
+								</div>
+								<div class=" columns large-6 medium-6 small-6">
+									<img class="imgbg" src="img/rogue-one.jpg">
+								</div>
+							</div>
+						</div>
+						<div class="columns large-6 medium-6 small-12 bg2">
+							<div class="moved plot">
+								<h1>Plot</h1>
+								<p>{{data.tagline}}</p>
+							</div>
+							<div class="moved storyline">
+								<h1>Storyline</h1>
+								<p>{{data.overview}}</p>
+							</div>
+						</div>
+						<div class="columns large-12 medium-12 small-12 bg2">
+							<h1>Cast</h1>
+						</div>
+						<div class="cast-slider multiple-items small-12 large-12">
+							<div class="slide-content small-6 image">
+								<img class="cast-pic" src="img/cast.jpg">
+								<h3 class="actor-name">Actor name</h3>
+							</div>
+							<div class="slide-content small-6 image">
+								<img class="cast-pic" src="img/cast.jpg">
+								<h3 class="actor-name">Actor name</h3>
+							</div>
+							<div class="slide-content small-6 image">
+								<img class="cast-pic" src="img/cast.jpg">
+								<h3 class="actor-name">Actor name</h3>
+							</div>
+							<div class="slide-content small-6 image">
+								<img class="cast-pic" src="img/cast.jpg">
+								<h3 class="actor-name">Actor name</h3>
+							</div>
+							<div class="slide-content small-6 image">
+								<img class="cast-pic" src="img/cast.jpg">
+								<h3 class="actor-name">Actor name</h3>
+							</div>
+							<div class="slide-content small-6 image">
+								<img class="cast-pic" src="img/cast.jpg">
+								<h3 class="actor-name">Actor name</h3>
+							</div>
+							<div class="slide-content small-6 image">
+								<img class="cast-pic" src="img/cast.jpg">
+								<h3 class="actor-name">Actor name</h3>
+							</div>
+							<div class="slide-content small-6 image">
+								<img class="cast-pic" src="img/cast.jpg">
+								<h3 class="actor-name">Actor name</h3>
+							</div>
+							<div class="slide-content small-6 image">
+								<img class="cast-pic" src="img/cast.jpg">
+								<h3 class="actor-name">Actor name</h3>
+							</div>
+							<div class="slide-content small-6 image">
+								<img class="cast-pic" src="img/cast.jpg">
+								<h3 class="actor-name">Actor name</h3>
+							</div>
+							<div class="slide-content small-6 image">
+								<img class="cast-pic" src="img/cast.jpg">
+								<h3 class="actor-name">Actor name</h3>
+							</div>
+							<div class="slide-content small-6 image">
+								<img class="cast-pic" src="img/cast.jpg">
+								<h3 class="actor-name">Actor name</h3>
+							</div>
+							<div class="slide-content small-6 image">
+								<img class="cast-pic" src="img/cast.jpg">
+								<h3 class="actor-name">Actor name</h3>
+							</div>
+							<div class="slide-content small-6 image">
+								<img class="cast-pic" src="img/cast.jpg">
+								<h3 class="actor-name">Actor name</h3>
+							</div>
+						</div>
+					</div>
+					<div class="people-row row large-11">
+						<div class="columns small-6" >
+							<h1 class="columnPadding">People Also Liked</h1>
+						</div>
+						<div class="columns small-12 responsive">
+							<div class="slide-content image"><img src="img/rogue-one-poster.jpg">
+								<div class="textOverlayBg-single-page">
+									<div class="skew">
+										<h3 class="textOverlayH3">Rouge One: Star Wars</h3>
+										<a class="textOverlayA" href="#">Felicity Jones | Diego Luna | Forest Whitaker</a>
+										<p class="textOverlayP">Action,Adventure,Sci-Fi</p>
+										<div class="textOverlayC circleBase type2"><h4 class="rating"><strong>8.1</strong></h4></div>
+									</div>
+								</div>
+							</div>
+							<div class="slide-content image"><img src="img/rogue-one-poster.jpg">
+								<div class="textOverlayBg-single-page">
+									<div class="skew">
+										<h3 class="textOverlayH3">Rouge One: Star Wars</h3>
+										<a class="textOverlayA" href="#">Felicity Jones | Diego Luna | Forest Whitaker</a>
+										<p class="textOverlayP">Action,Adventure,Sci-Fi</p>
+										<div class="textOverlayC circleBase type2"><h4 class="rating"><strong>8.1</strong></h4></div>
+									</div>
+								</div>
+							</div>
+							<div class="slide-content image"><img src="img/rogue-one-poster.jpg">
+								<div class="textOverlayBg-single-page">
+									<div class="skew">
+										<h3 class="textOverlayH3">Rouge One: Star Wars</h3>
+										<a class="textOverlayA" href="#">Felicity Jones | Diego Luna | Forest Whitaker</a>
+										<p class="textOverlayP">Action,Adventure,Sci-Fi</p>
+										<div class="textOverlayC circleBase type2"><h4 class="rating"><strong>8.1</strong></h4></div>
+									</div>
+								</div>
+							</div>
+							<div class="slide-content image"><img src="img/rogue-one-poster.jpg">
+								<div class="textOverlayBg-single-page">
+									<div class="skew">
+										<h3 class="textOverlayH3">Rouge One: Star Wars</h3>
+										<a class="textOverlayA" href="#">Felicity Jones | Diego Luna | Forest Whitaker</a>
+										<p class="textOverlayP">Action,Adventure,Sci-Fi</p>
+										<div class="textOverlayC circleBase type2"><h4 class="rating"><strong>8.1</strong></h4></div>
+									</div>
+								</div>
+							</div>
+							<div class="slide-content image"><img src="img/rogue-one-poster.jpg">
+								<div class="textOverlayBg-single-page">
+									<div class="skew">
+										<h3 class="textOverlayH3">Rouge One: Star Wars</h3>
+										<a class="textOverlayA" href="#">Felicity Jones | Diego Luna | Forest Whitaker</a>
+										<p class="textOverlayP">Action,Adventure,Sci-Fi</p>
+										<div class="textOverlayC circleBase type2"><h4 class="rating"><strong>8.1</strong></h4></div>
+									</div>
+								</div>
+							</div>
+							<div class="slide-content image"><img src="img/rogue-one-poster.jpg">
+								<div class="textOverlayBg-single-page">
+									<div class="skew">
+										<h3 class="textOverlayH3">Rouge One: Star Wars</h3>
+										<a class="textOverlayA" href="#">Felicity Jones | Diego Luna | Forest Whitaker</a>
+										<p class="textOverlayP">Action,Adventure,Sci-Fi</p>
+										<div class="textOverlayC circleBase type2"><h4 class="rating"><strong>8.1</strong></h4></div>
+									</div>
+								</div>
+							</div>
+							<div class="slide-content image"><img src="img/rogue-one-poster.jpg">
+								<div class="textOverlayBg-single-page">
+									<div class="skew">
+										<h3 class="textOverlayH3">Rouge One: Star Wars</h3>
+										<a class="textOverlayA" href="#">Felicity Jones | Diego Luna | Forest Whitaker</a>
+										<p class="textOverlayP">Action,Adventure,Sci-Fi</p>
+										<div class="textOverlayC circleBase type2"><h4 class="rating"><strong>8.1</strong></h4></div>
+									</div>
+								</div>
+							</div>
+							<div class="slide-content image"><img src="img/rogue-one-poster.jpg">
+								<div class="textOverlayBg-single-page">
+									<div class="skew">
+										<h3 class="textOverlayH3">Rouge One: Star Wars</h3>
+										<a class="textOverlayA" href="#">Felicity Jones | Diego Luna | Forest Whitaker</a>
+										<p class="textOverlayP">Action,Adventure,Sci-Fi</p>
+										<div class="textOverlayC circleBase type2"><h4 class="rating"><strong>8.1</strong></h4></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div><!-- end container -->
+				<div class="mobile-container">
+					<div class="row">
+						<div class=" columns small-6">
+							<img class="movie-poster" src="https://image.tmdb.org/t/p/original{{data.poster_path}}">
+						</div>
+						<div class="textOverlayC-upper circleBase type2">
+							<h4 class="rating-one"><strong>{{data.vote_average}}</strong></h4>
+						</div>
+						<div class="row">
+							<div class="columns small-6">
+								<h3 class="movie-info-h3">Release Date: </h3>
+								<h4 class="movie-info-h4">{{data.release_date}}</h4>
+							</div>
+							<div class="columns small-6 modify">
+								<h3 class="movie-info-h3">Duration</h3>
+								<h4 class="movie-info-h4">2h 13min</h4>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="columns small-6">
+						</div>
+						<div class="columns small-6 movie-title-modify">
+							<h2 class="movie-title">{{data.title}}</h2>
+						</div>
+					</div>
+					<div class="row align-justify">
+						<div class="columns small-6"></div>
+						<div class="columns small-6">
+							<div class="row">
+								<div class="columns small-6">
+									<h2>Director:</h2>
+								</div>
+								<div class=" director-name columns small-6">
+									<h3>Gareth Edwards</h3>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row align-justify">
+						<div class="columns small-6"></div>
+						<div class="columns small-6">
+							<div class="row">
+								<div class="columns small-6">
+									<h2>Writer:</h2>
+								</div>
+								<div class=" director-name columns small-6">
+									<h3 class="writer-name">Gareth Edwards</h3>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="columns large-6 medium-6 small-12">
+							<div class="storyline">
+								<h1>Storyline</h1>
+								<p>{{data.overview}}</p>
+							</div>
+						</div>
+						<div class="columns large-12 medium-12 small-12 ">
+							<h1>Cast</h1>
+						</div>
+						<div class="cast-slider multiple-items small-12 large-12">
+							<div class="slide-content small-6 image">
+								<img class="cast-pic" src="img/cast.jpg">
+								<h3 class="actor-name">Actor name</h3>
+							</div>
+							<div class="slide-content small-6 image">
+								<img class="cast-pic" src="img/cast.jpg">
+								<h3 class="actor-name">Actor name</h3>
+							</div>
+							<div class="slide-content small-6 image">
+								<img class="cast-pic" src="img/cast.jpg">
+								<h3 class="actor-name">Actor name</h3>
+							</div>
+							<div class="slide-content small-6 image">
+								<img class="cast-pic" src="img/cast.jpg">
+								<h3 class="actor-name">Actor name</h3>
+							</div>
+							<div class="slide-content small-6 image">
+								<img class="cast-pic" src="img/cast.jpg">
+								<h3 class="actor-name">Actor name</h3>
+							</div>
+						</div>
+					</div><!-- end first row -->
+					<div class="row">	
+						<div class="columns large-12 medium-12 small-12 bg2">
+							<h1>Stills</h1>
+						</div>
+						<div class="stills-slider small-12 large-12">
+							<div class="slide-content small-6 image">
+								<div class="still-pic"></div>
+							</div>
+							<div class="slide-content small-6 image">
+								<div class="still-pic"></div>
+							</div>
+							<div class="slide-content small-6 image">
+								<div class="still-pic" ></div>
+							</div>
+						</div>
+					</div><!-- end second row -->
+					<div class="row">
+						<div class="columns small-6" >
+							<h1 class="columnPadding">People Also Liked</h1>
+						</div>
+						<div class="columns small-12 responsive">
+							<div class="slide-content image"><img src="img/rogue-one-poster.jpg">
+								<div class="textOverlayBg-single">
+									<div class="skew">
+										<h3 class="textOverlayH3">Rouge One: Star Wars</h3>
+										<a class="textOverlayA" href="#">Felicity Jones | Diego Luna | Forest Whitaker</a>
+										<p class="textOverlayP-one">Action,Adventure,Sci-Fi</p>
+										<div class="textOverlayC circleBase type2">
+											<h4 class="rating-one"><strong>8.1</strong></h4>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="slide-content image"><img src="img/rogue-one-poster.jpg">
+								<div class="textOverlayBg-single">
+									<div class="skew">
+										<h3 class="textOverlayH3">Rouge One: Star Wars</h3>
+										<a class="textOverlayA" href="#">Felicity Jones | Diego Luna | Forest Whitaker</a>
+										<p class="textOverlayP-one">Action,Adventure,Sci-Fi</p>
+										<div class="textOverlayC circleBase type2"><h4 class="rating-one"><strong>8.1</strong></h4></div>
+									</div>
+								</div>
+							</div>
+							<div class="slide-content image"><img src="img/rogue-one-poster.jpg">
+								<div class="textOverlayBg-single">
+									<div class="skew">
+										<h3 class="textOverlayH3">Rouge One: Star Wars</h3>
+										<a class="textOverlayA" href="#">Felicity Jones | Diego Luna | Forest Whitaker</a>
+										<p class="textOverlayP-one">Action,Adventure,Sci-Fi</p>
+										<div class="textOverlayC circleBase type2"><h4 class="rating-one"><strong>8.1</strong></h4></div>
+									</div>
+								</div>
+							</div>
+							<div class="slide-content image"><img src="img/rogue-one-poster.jpg">
+								<div class="textOverlayBg-single">
+									<div class="skew">
+										<h3 class="textOverlayH3">Rouge One: Star Wars</h3>
+										<a class="textOverlayA" href="#">Felicity Jones | Diego Luna | Forest Whitaker</a>
+										<p class="textOverlayP-one">Action,Adventure,Sci-Fi</p>
+										<div class="textOverlayC circleBase type2"><h4 class="rating-one"><strong>8.1</strong></h4></div>
+									</div>
+								</div>
+							</div>
+							<div class="slide-content image"><img src="img/rogue-one-poster.jpg">
+								<div class="textOverlayBg-single">
+									<div class="skew">
+										<h3 class="textOverlayH3">Rouge One: Star Wars</h3>
+										<a class="textOverlayA" href="#">Felicity Jones | Diego Luna | Forest Whitaker</a>
+										<p class="textOverlayP-one">Action,Adventure,Sci-Fi</p>
+										<div class="textOverlayC circleBase type2"><h4 class="rating-one"><strong>8.1</strong></h4></div>
+									</div>
+								</div>
+							</div>
+							<div class="slide-content image"><img src="img/rogue-one-poster.jpg">
+								<div class="textOverlayBg-single">
+									<div class="skew">
+										<h3 class="textOverlayH3">Rouge One: Star Wars</h3>
+										<a class="textOverlayA" href="#">Felicity Jones | Diego Luna | Forest Whitaker</a>
+										<p class="textOverlayP-one">Action,Adventure,Sci-Fi</p>
+										<div class="textOverlayC circleBase type2"><h4 class="rating-one"><strong>8.1</strong></h4></div>
+									</div>
+								</div>
+							</div>
+							<div class="slide-content image"><img src="img/rogue-one-poster.jpg">
+								<div class="textOverlayBg">
+									<div class="skew">
+										<h3 class="textOverlayH3">Rouge One: Star Wars</h3>
+										<a class="textOverlayA" href="#">Felicity Jones | Diego Luna | Forest Whitaker</a>
+										<p class="textOverlayP-one">Action,Adventure,Sci-Fi</p>
+										<div class="textOverlayC circleBase type2"><h4 class="rating-one"><strong>8.1</strong></h4></div>
+									</div>
+								</div>
+							</div>
+							<div class="slide-content image"><img src="img/rogue-one-poster.jpg">
+								<div class="textOverlayBg-single">
+									<div class="skew">
+										<h3 class="textOverlayH3">Rouge One: Star Wars</h3>
+										<a class="textOverlayA" href="#">Felicity Jones | Diego Luna | Forest Whitaker</a>
+										<p class="textOverlayP-one">Action,Adventure,Sci-Fi</p>
+										<div class="textOverlayC circleBase type2"><h4 class="rating-one"><strong>8.1</strong></h4></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div><!-- end row -->
+				</div><!-- end mobile container -->
+			</div><!-- end unskew -->
+		</div><!-- end skew -->
+	</div>
+	<div class="footer-seperate">
+		
+	</div>
+	<footer>
+		    <section class="footer">
+		        <div class="row align-center">
+		            <div class="column small-2 medium-2 footerlogodiv">
+		                <img class="movieboxlogo-footer" src="images/movie-box.svg">
+		            </div>
+		        </div>
+		        <div class="row align-center">
+		            <div class="columns medium-8 align-center">
+		                <a class="footerA" href="#">About</a>
+		                <a class="footerA" href="#">Term of Use</a>
+		                <a class="footerA" href="#">FAQ</a>
+		                <a class="footerA" href="#">Privacy</a>
+		                <a class="footerA" href="#">Contact Us</a>
+		            </div>
+		        </div>
+		        <div class="row align-right copyrightrow">
+		            <div class="columns medium-4 copyright">
+		                <p>Copyright © 2016-2017 - MovieBox.io, inc.</p>
+		            </div>
+		        </div>
+		    </section>
