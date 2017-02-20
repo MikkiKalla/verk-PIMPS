@@ -1,7 +1,3 @@
-body {
-	background-color: #f0f0f0;
-}
-
 h1, h2, h3 {
 	font-family: 'Oswald', sans-serif;
 	color: #4f4f4f;
@@ -196,8 +192,8 @@ header .row {
 	background-color: #FAA71A;
 }
 .buttonSearch{
-	margin-top: 65px;
-	margin-bottom: 45px;
+	margin-top: 45px;
+	margin-bottom: 26px;
 }
 .button1 {
 	color: #E84B33;
@@ -239,6 +235,13 @@ header .row {
 .button-group input:checked + label:active {
   background-color: #E84B33;
   color: #fff;
+}
+.genreH3 {
+	margin-bottom: 30px;
+}
+
+.popular-list {
+	margin-bottom: 30px;
 }
 
 .footer {
@@ -288,7 +291,7 @@ header .row {
 		display: none;
 	}
 	.slick-slide {
-    margin: 0 0;
+    margin: 0 5px;
     
 	}
 	.slide-content {

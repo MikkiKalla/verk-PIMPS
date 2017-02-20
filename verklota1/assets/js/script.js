@@ -36,7 +36,10 @@ r.onreadystatechange = function () {
     const getGenre = IdInfo.getGenres(genre);
 
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 67a2459205d869a86d4034ed151f878ba24d6c35
 $(document).ready(function(){
 	$('.superslider').slick({
 		arrows: false,
@@ -50,6 +53,10 @@ $(document).ready(function(){
 
 });
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 67a2459205d869a86d4034ed151f878ba24d6c35
 
 $(document).ready(function(){
 	$('.superslider').slick({
@@ -201,4 +208,11 @@ class generalInfo {
 //   ]
 // });
 
+<<<<<<< HEAD
+=======
+
+//   ]
+// });
+
+>>>>>>> 67a2459205d869a86d4034ed151f878ba24d6c35
 

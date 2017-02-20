@@ -36,6 +36,7 @@
 			<h3 id="FavoriteSourceH2">Your favorite movie source</h3>
 		</div>
 	</header>
+<<<<<<< HEAD
 
 
 <a href=""></a>
@@ -162,6 +163,38 @@ Search modal -->
 
 		<!--
 		<div class="">
+=======
+	
+	<div id="searchModal" class="reveal" data-reveal>
+		<a class="close-button" data-close>&#215;</a>
+		<input id="searchInput" type="text" value="Search" onfocus="this.value = this.value=='Search'?'':this.value;" onblur="this.value = this.value==''?'Search':this.value;">
+		<h3>Rating</h3>
+		<div class="columns">
+			<input class="colums small-4" type="number" id="sliderOutput1">
+			<input class="colums small-4" type="number" id="sliderOutput2">
+		</div>
+		<div class="small-12 columns">
+			<div class="slider" data-slider data-initial-start="0" type="range" data-end="10" min="0" max="10" >
+				<span class="slider-handle"  data-slider-handle role="slider" tabindex="1" aria-controls="sliderOutput1"></span>
+				<span class="slider-handle"  data-slider-handle role="slider" tabindex="1" aria-controls="sliderOutput2"></span>
+				<span class="slider-fill" data-slider-fill></span>
+			</div>
+		</div>
+		<h3>Year</h3>
+		<div>
+			<input class="colums small-4" type="number" id="sliderOutput3">
+			<input class="colums small-4" type="number" id="sliderOutput4">
+		</div>
+		<div>
+			<div class="slider" data-slider data-initial-start="1888" type="range" data-end="2017" min="1888" max="2017" >
+				<span class="slider-handle"  data-slider-handle role="slider" tabindex="1" aria-controls="sliderOutput3"></span>
+				<span class="slider-handle"  data-slider-handle role="slider" tabindex="1" aria-controls="sliderOutput4"></span>
+				<span class="slider-fill" data-slider-fill></span>
+			</div>
+		</div>
+		<h3 class="genreH3">Genre</h3>
+		<div class="genre-buttons">
+>>>>>>> 67a2459205d869a86d4034ed151f878ba24d6c35
 			<form>
 				<div class="button-group" >
 				<input id="checkbox1" type="checkbox">
@@ -178,20 +211,86 @@ Search modal -->
 			</form>
 		</div>
 
-		-->
-<!-- Madal fyrir onckick á bíómyndir -->
-<div id="myModal" class="reveal MovieModal" data-reveal >
-  <div class="slide-content image"><a href="#" data-open="myModal"><img src="images/img.png"></a>
+		<!-- <div class="row"> 
+			<div class="columns small-4" >
+				<h3>Genre</h3>
+			</div>
+			<div class="columns small-12 superslide"> EKKI HÆGT AÐ NOTA SLIDER HÉR, RUGLAR Í ÖÐRU
+				<div>
+					<form>
+						<div class="button-group">
+							<input id="checkbox1" type="checkbox">
+							<label class="button button1" for="checkbox1">a</label>
+						</div>
+					</form>
+				</div>
+				<div>
+					<form>
+						<div class="button-group">
+							<input id="checkbox2" type="checkbox">
+							<label class="button button1" for="checkbox2">b</label>
+						</div>
+					</form>
+				</div>
+				<div>
+					<form>
+						<div class="button-group">
+							<input id="checkbox3" type="checkbox">
+							<label class="button button1" for="checkbox3">c</label>
+						</div>
+					</form>
+				</div>
+				<div>
+					<form>
+						<div class="button-group">
+							<input id="checkbox4" type="checkbox">
+							<label class="button button1" for="checkbox4">d</label>
+						</div>
+					</form>
+				</div>
+				<div>
+					<form>
+						<div class="button-group">
+							<input id="checkbox5" type="checkbox" tabindex="3">
+							<label class="button button1" for="checkbox5">e</label>
+						</div>
+					</form>
+				</div>
+				<div>
+					<form>
+						<div class="button-group">
+							<input id="checkbox6" type="checkbox">
+							<label class="button button1" for="checkbox6">f</label>
+						</div>
+					</form>
+				</div>
+				<div>
+					<form>
+						<div class="button-group">
+							<input id="checkbox7" type="checkbox">
+							<label class="button button1" for="checkbox7">g</label>
+						</div>
+					</form>
+				</div>
+				<div>
+					<form>
+						<div class="button-group">
+							<input id="checkbox8" type="checkbox">
+							<label class="button button1" for="checkbox8">h</label>
+						</div>
+					</form>
+				</div>
+			</div>
 		</div>
-  <a class="close-button" data-close>&#215;</a>
-</div>
-
-
-<div class="row">
-	<div class="columns small-4" >
-		<h3 class="columnPadding">Popular</h3>
+ -->
+		<div class="row align-center ">
+			<div class="colums small-10 medium-6 button buttonSearch">
+				<h3 class="buttonH1">Search</h3>
+			</div>
+		</div>
 	</div>
 
+<<<<<<< HEAD
 	<div class="columns small-12 responsive Popular popular-list">
 		
 	</div>
@@ -206,292 +305,332 @@ Search modal -->
 					<a class="textOverlayA" href="#">Felicity Jones | Diego Luna | Forest Whitaker</a>
 					<p class="textOverlayP">Action,Adventure,Sci-Fi</p>
 					<div class="textOverlayC circleBase type2"><h4 class="rating"><strong>8.1</strong></h4></div>
+=======
+	<!-- Madal fyrir onckick á bíómyndir -->
+	<div id="myModal" class="reveal MovieModal" data-reveal >
+	  <div class="slide-content image"><a href="#" data-open="myModal"><img src="images/img.png"></a>
+			</div>
+	  <a class="close-button" data-close>&#215;</a>
+	</div>
+
+
+	<div class="row">
+		<div class="columns small-4" >
+			<h3 class="columnPadding">Popular</h3>
+		</div>
+
+		<div class="columns small-12 responsive Popular popular-list">
+			
+		</div>
+
+		<div class="columns small-12 responsive popular-list"></div>
+
+		<div class="columns small-12 responsive">
+			<div class="slide-content image"><a href="#" data-open="myModal"><img src="images/img.png"></a>
+				<div class="textOverlayBg">
+					<div class="skew">
+						<h3 class="textOverlayH3">Rouge One: Star Wars</h3>
+						<a class="textOverlayA" href="#">Felicity Jones | Diego Luna | Forest Whitaker</a>
+						<p class="textOverlayP">Action,Adventure,Sci-Fi</p>
+						<div class="textOverlayC circleBase type2"><h4 class="rating"><strong>8.1</strong></h4></div>
+					</div>
+>>>>>>> 67a2459205d869a86d4034ed151f878ba24d6c35
+				</div>
+			</div>
+			<div class="slide-content image"><a href="#" data-open="myModal"><img src="images/img.png"></a>
+				<div class="textOverlayBg">
+					<div class="skew">
+						<h3 class="textOverlayH3">Rouge One: Star Wars</h3>
+						<a class="textOverlayA" href="#">Felicity Jones | Diego Luna | Forest Whitaker</a>
+						<p class="textOverlayP">Action,Adventure,Sci-Fi</p>
+						<div class="textOverlayC circleBase type2"><h4 class="rating"><strong>8.1</strong></h4></div>
+					</div>
+				</div>
+			</div>
+			<div class="slide-content image"><a href="#" data-open="myModal"><img src="images/img.png"></a>
+				<div class="textOverlayBg">
+					<div class="skew">
+						<h3 class="textOverlayH3">Rouge One: Star Wars</h3>
+						<a class="textOverlayA" href="#">Felicity Jones | Diego Luna | Forest Whitaker</a>
+						<p class="textOverlayP">Action,Adventure,Sci-Fi</p>
+						<div class="textOverlayC circleBase type2"><h4 class="rating"><strong>8.1</strong></h4></div>
+					</div>
+				</div>
+			</div>
+			<div class="slide-content image"><a href="#" data-open="myModal"><img src="images/img.png"></a>
+				<div class="textOverlayBg">
+					<div class="skew">
+						<h3 class="textOverlayH3">Rouge One: Star Wars</h3>
+						<a class="textOverlayA" href="#">Felicity Jones | Diego Luna | Forest Whitaker</a>
+						<p class="textOverlayP">Action,Adventure,Sci-Fi</p>
+						<div class="textOverlayC circleBase type2"><h4 class="rating"><strong>8.1</strong></h4></div>
+					</div>
+				</div>
+			</div>
+			<div class="slide-content image"><a href="#" data-open="myModal"><img src="images/img.png"></a>
+				<div class="textOverlayBg">
+					<div class="skew">
+						<h3 class="textOverlayH3">Rouge One: Star Wars</h3>
+						<a class="textOverlayA" href="#">Felicity Jones | Diego Luna | Forest Whitaker</a>
+						<p class="textOverlayP">Action,Adventure,Sci-Fi</p>
+						<div class="textOverlayC circleBase type2"><h4 class="rating"><strong>8.1</strong></h4></div>
+					</div>
+				</div>
+			</div>
+			<div class="slide-content image"><a href="#" data-open="myModal"><img src="images/img.png"></a>
+				<div class="textOverlayBg">
+					<div class="skew">
+						<h3 class="textOverlayH3">Rouge One: Star Wars</h3>
+						<a class="textOverlayA" href="#">Felicity Jones | Diego Luna | Forest Whitaker</a>
+						<p class="textOverlayP">Action,Adventure,Sci-Fi</p>
+						<div class="textOverlayC circleBase type2"><h4 class="rating"><strong>8.1</strong></h4></div>
+					</div>
+				</div>
+			</div>
+			<div class="slide-content image"><a href="#" data-open="myModal"><img src="images/img.png"></a>
+				<div class="textOverlayBg">
+					<div class="skew">
+						<h3 class="textOverlayH3">Rouge One: Star Wars</h3>
+						<a class="textOverlayA" href="#">Felicity Jones | Diego Luna | Forest Whitaker</a>
+						<p class="textOverlayP">Action,Adventure,Sci-Fi</p>
+						<div class="textOverlayC circleBase type2"><h4 class="rating"><strong>8.1</strong></h4></div>
+					</div>
+				</div>
+			</div>
+			<div class="slide-content image"><a href="#" data-open="myModal"><img src="images/img.png"></a>
+				<div class="textOverlayBg">
+					<div class="skew">
+						<h3 class="textOverlayH3">Rouge One: Star Wars</h3>
+						<a class="textOverlayA" href="#">Felicity Jones | Diego Luna | Forest Whitaker</a>
+						<p class="textOverlayP">Action,Adventure,Sci-Fi</p>
+						<div class="textOverlayC circleBase type2"><h4 class="rating"><strong>8.1</strong></h4></div>
+					</div>
 				</div>
 			</div>
 		</div>
-		<div class="slide-content image"><a href="#" data-open="myModal"><img src="images/img.png"></a>
-			<div class="textOverlayBg">
-				<div class="skew">
-					<h3 class="textOverlayH3">Rouge One: Star Wars</h3>
-					<a class="textOverlayA" href="#">Felicity Jones | Diego Luna | Forest Whitaker</a>
-					<p class="textOverlayP">Action,Adventure,Sci-Fi</p>
-					<div class="textOverlayC circleBase type2"><h4 class="rating"><strong>8.1</strong></h4></div>
-				</div>
-			</div>
-		</div>
-		<div class="slide-content image"><a href="#" data-open="myModal"><img src="images/img.png"></a>
-			<div class="textOverlayBg">
-				<div class="skew">
-					<h3 class="textOverlayH3">Rouge One: Star Wars</h3>
-					<a class="textOverlayA" href="#">Felicity Jones | Diego Luna | Forest Whitaker</a>
-					<p class="textOverlayP">Action,Adventure,Sci-Fi</p>
-					<div class="textOverlayC circleBase type2"><h4 class="rating"><strong>8.1</strong></h4></div>
-				</div>
-			</div>
-		</div>
-		<div class="slide-content image"><a href="#" data-open="myModal"><img src="images/img.png"></a>
-			<div class="textOverlayBg">
-				<div class="skew">
-					<h3 class="textOverlayH3">Rouge One: Star Wars</h3>
-					<a class="textOverlayA" href="#">Felicity Jones | Diego Luna | Forest Whitaker</a>
-					<p class="textOverlayP">Action,Adventure,Sci-Fi</p>
-					<div class="textOverlayC circleBase type2"><h4 class="rating"><strong>8.1</strong></h4></div>
-				</div>
-			</div>
-		</div>
-		<div class="slide-content image"><a href="#" data-open="myModal"><img src="images/img.png"></a>
-			<div class="textOverlayBg">
-				<div class="skew">
-					<h3 class="textOverlayH3">Rouge One: Star Wars</h3>
-					<a class="textOverlayA" href="#">Felicity Jones | Diego Luna | Forest Whitaker</a>
-					<p class="textOverlayP">Action,Adventure,Sci-Fi</p>
-					<div class="textOverlayC circleBase type2"><h4 class="rating"><strong>8.1</strong></h4></div>
-				</div>
-			</div>
-		</div>
-		<div class="slide-content image"><a href="#" data-open="myModal"><img src="images/img.png"></a>
-			<div class="textOverlayBg">
-				<div class="skew">
-					<h3 class="textOverlayH3">Rouge One: Star Wars</h3>
-					<a class="textOverlayA" href="#">Felicity Jones | Diego Luna | Forest Whitaker</a>
-					<p class="textOverlayP">Action,Adventure,Sci-Fi</p>
-					<div class="textOverlayC circleBase type2"><h4 class="rating"><strong>8.1</strong></h4></div>
-				</div>
-			</div>
-		</div>
-		<div class="slide-content image"><a href="#" data-open="myModal"><img src="images/img.png"></a>
-			<div class="textOverlayBg">
-				<div class="skew">
-					<h3 class="textOverlayH3">Rouge One: Star Wars</h3>
-					<a class="textOverlayA" href="#">Felicity Jones | Diego Luna | Forest Whitaker</a>
-					<p class="textOverlayP">Action,Adventure,Sci-Fi</p>
-					<div class="textOverlayC circleBase type2"><h4 class="rating"><strong>8.1</strong></h4></div>
-				</div>
-			</div>
-		</div>
-		<div class="slide-content image"><a href="#" data-open="myModal"><img src="images/img.png"></a>
-			<div class="textOverlayBg">
-				<div class="skew">
-					<h3 class="textOverlayH3">Rouge One: Star Wars</h3>
-					<a class="textOverlayA" href="#">Felicity Jones | Diego Luna | Forest Whitaker</a>
-					<p class="textOverlayP">Action,Adventure,Sci-Fi</p>
-					<div class="textOverlayC circleBase type2"><h4 class="rating"><strong>8.1</strong></h4></div>
-				</div>
-			</div>
-		</div>
+<<<<<<< HEAD
 	</div>
 </div>
 <div class="row">
 	<div class="columns small-4" >
 		<h3 class="columnPadding">Popular</h3>
-	</div>
-	<div class="columns small-12 responsive">
-		<div class="slide-content image"><a href="#" data-open="myModal"><img src="images/img2.png"></a>
-			<div class="textOverlayBg">
-				<div class="skew">
-					<h3 class="textOverlayH3">Dirty Grandpa</h3>
-					<a class="textOverlayA" href="#">Felicity Jones | Diego Luna | Forest Whitaker</a>
-					<p class="textOverlayP">Comedy</p>
-					<div class="textOverlayC circleBase type2"><h4 class="rating"><strong>6.0</strong></h4></div>
-				</div>
-			</div>
-		</div>
-		<div class="slide-content image"><a href="#" data-open="myModal"><img src="images/img.png"></a>
-			<div class="textOverlayBg">
-				<div class="skew">
-					<h3 class="textOverlayH3">Rouge One: Star Wars</h3>
-					<a class="textOverlayA" href="#">Felicity Jones | Diego Luna | Forest Whitaker</a>
-					<p class="textOverlayP">Action,Adventure,Sci-Fi</p>
-					<div class="textOverlayC circleBase type2"><h4 class="rating"><strong>8.1</strong></h4></div>
-				</div>
-			</div>
-		</div>
-		<div class="slide-content image"><a href="#" data-open="myModal"><img src="images/img.png"></a>
-			<div class="textOverlayBg">
-				<div class="skew">
-					<h3 class="textOverlayH3">Rouge One: Star Wars</h3>
-					<a class="textOverlayA" href="#">Felicity Jones | Diego Luna | Forest Whitaker</a>
-					<p class="textOverlayP">Action,Adventure,Sci-Fi</p>
-					<div class="textOverlayC circleBase type2"><h4 class="rating"><strong>8.1</strong></h4></div>
-				</div>
-			</div>
-		</div>
-		<div class="slide-content image"><a href="#" data-open="myModal"><img src="images/img.png"></a>
-			<div class="textOverlayBg">
-				<div class="skew">
-					<h3 class="textOverlayH3">Rouge One: Star Wars</h3>
-					<a class="textOverlayA" href="#">Felicity Jones | Diego Luna | Forest Whitaker</a>
-					<p class="textOverlayP">Action,Adventure,Sci-Fi</p>
-					<div class="textOverlayC circleBase type2"><h4 class="rating"><strong>8.1</strong></h4></div>
-				</div>
-			</div>
-		</div>
-		<div class="slide-content image"><a href="#" data-open="myModal"><img src="images/img.png"></a>
-			<div class="textOverlayBg">
-				<div class="skew">
-					<h3 class="textOverlayH3">Rouge One: Star Wars</h3>
-					<a class="textOverlayA" href="#">Felicity Jones | Diego Luna | Forest Whitaker</a>
-					<p class="textOverlayP">Action,Adventure,Sci-Fi</p>
-					<div class="textOverlayC circleBase type2"><h4 class="rating"><strong>8.1</strong></h4></div>
-				</div>
-			</div>
-		</div>
-		<div class="slide-content image"><a href="#" data-open="myModal"><img src="images/img.png"></a>
-			<div class="textOverlayBg">
-				<div class="skew">
-					<h3 class="textOverlayH3">Rouge One: Star Wars</h3>
-					<a class="textOverlayA" href="#">Felicity Jones | Diego Luna | Forest Whitaker</a>
-					<p class="textOverlayP">Action,Adventure,Sci-Fi</p>
-					<div class="textOverlayC circleBase type2"><h4 class="rating"><strong>8.1</strong></h4></div>
-				</div>
-			</div>
-		</div>
-		<div class="slide-content image"><a href="#" data-open="myModal"><img src="images/img.png"></a>
-			<div class="textOverlayBg">
-				<div class="skew">
-					<h3 class="textOverlayH3">Rouge One: Star Wars</h3>
-					<a class="textOverlayA" href="#">Felicity Jones | Diego Luna | Forest Whitaker</a>
-					<p class="textOverlayP">Action,Adventure,Sci-Fi</p>
-					<div class="textOverlayC circleBase type2"><h4 class="rating"><strong>8.1</strong></h4></div>
-				</div>
-			</div>
-		</div>
-		<div class="slide-content image"><a href="#" data-open="myModal"><img src="images/img.png"></a>
-			<div class="textOverlayBg">
-				<div class="skew">
-					<h3 class="textOverlayH3">Rouge One: Star Wars</h3>
-					<a class="textOverlayA" href="#">Felicity Jones | Diego Luna | Forest Whitaker</a>
-					<p class="textOverlayP">Action,Adventure,Sci-Fi</p>
-					<div class="textOverlayC circleBase type2"><h4 class="rating"><strong>8.1</strong></h4></div>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
+=======
 
-<div class="row">
-	<div class="columns small-4" >
-		<h3 class="columnPadding">Popular</h3>
+>>>>>>> 67a2459205d869a86d4034ed151f878ba24d6c35
 	</div>
-	<div class="columns small-12 responsive">
-		<div class="slide-content image"><a href="#" data-open="myModal"><img src="images/img.png"></a>
-			<div class="textOverlayBg">
-				<div class="skew">
-					<h3 class="textOverlayH3">Rouge One: Star Wars</h3>
-					<a class="textOverlayA" href="#">Felicity Jones | Diego Luna | Forest Whitaker</a>
-					<p class="textOverlayP">Action,Adventure,Sci-Fi</p>
-					<div class="textOverlayC circleBase type2"><h4 class="rating"><strong>8.1</strong></h4></div>
+
+	<div class="row">
+		<div class="columns small-4" >
+			<h3 class="columnPadding">Popular</h3>
+		</div>
+		<div class="columns small-12 responsive">
+			<div class="slide-content image"><a href="#" data-open="myModal"><img src="images/img2.png"></a>
+				<div class="textOverlayBg">
+					<div class="skew">
+						<h3 class="textOverlayH3">Dirty Grandpa</h3>
+						<a class="textOverlayA" href="#">Felicity Jones | Diego Luna | Forest Whitaker</a>
+						<p class="textOverlayP">Comedy</p>
+						<div class="textOverlayC circleBase type2"><h4 class="rating"><strong>6.0</strong></h4></div>
+					</div>
 				</div>
 			</div>
-		</div>
-		<div class="slide-content image"><a href="#" data-open="myModal"><img src="images/img.png"></a>
-			<div class="textOverlayBg">
-				<div class="skew">
-					<h3 class="textOverlayH3">Rouge One: Star Wars</h3>
-					<a class="textOverlayA" href="#">Felicity Jones | Diego Luna | Forest Whitaker</a>
-					<p class="textOverlayP">Action,Adventure,Sci-Fi</p>
-					<div class="textOverlayC circleBase type2"><h4 class="rating"><strong>8.1</strong></h4></div>
+			<div class="slide-content image"><a href="#" data-open="myModal"><img src="images/img.png"></a>
+				<div class="textOverlayBg">
+					<div class="skew">
+						<h3 class="textOverlayH3">Rouge One: Star Wars</h3>
+						<a class="textOverlayA" href="#">Felicity Jones | Diego Luna | Forest Whitaker</a>
+						<p class="textOverlayP">Action,Adventure,Sci-Fi</p>
+						<div class="textOverlayC circleBase type2"><h4 class="rating"><strong>8.1</strong></h4></div>
+					</div>
 				</div>
 			</div>
-		</div>
-		<div class="slide-content image"><a href="#" data-open="myModal"><img src="images/img.png"></a>
-			<div class="textOverlayBg">
-				<div class="skew">
-					<h3 class="textOverlayH3">Rouge One: Star Wars</h3>
-					<a class="textOverlayA" href="#">Felicity Jones | Diego Luna | Forest Whitaker</a>
-					<p class="textOverlayP">Action,Adventure,Sci-Fi</p>
-					<div class="textOverlayC circleBase type2"><h4 class="rating"><strong>8.1</strong></h4></div>
+			<div class="slide-content image"><a href="#" data-open="myModal"><img src="images/img.png"></a>
+				<div class="textOverlayBg">
+					<div class="skew">
+						<h3 class="textOverlayH3">Rouge One: Star Wars</h3>
+						<a class="textOverlayA" href="#">Felicity Jones | Diego Luna | Forest Whitaker</a>
+						<p class="textOverlayP">Action,Adventure,Sci-Fi</p>
+						<div class="textOverlayC circleBase type2"><h4 class="rating"><strong>8.1</strong></h4></div>
+					</div>
 				</div>
 			</div>
-		</div>
-		<div class="slide-content image"><a href="#" data-open="myModal"><img src="images/img.png"></a>
-			<div class="textOverlayBg">
-				<div class="skew">
-					<h3 class="textOverlayH3">Rouge One: Star Wars</h3>
-					<a class="textOverlayA" href="#">Felicity Jones | Diego Luna | Forest Whitaker</a>
-					<p class="textOverlayP">Action,Adventure,Sci-Fi</p>
-					<div class="textOverlayC circleBase type2"><h4 class="rating"><strong>8.1</strong></h4></div>
+			<div class="slide-content image"><a href="#" data-open="myModal"><img src="images/img.png"></a>
+				<div class="textOverlayBg">
+					<div class="skew">
+						<h3 class="textOverlayH3">Rouge One: Star Wars</h3>
+						<a class="textOverlayA" href="#">Felicity Jones | Diego Luna | Forest Whitaker</a>
+						<p class="textOverlayP">Action,Adventure,Sci-Fi</p>
+						<div class="textOverlayC circleBase type2"><h4 class="rating"><strong>8.1</strong></h4></div>
+					</div>
 				</div>
 			</div>
-		</div>
-		<div class="slide-content image"><a href="#" data-open="myModal"><img src="images/img.png"></a>
-			<div class="textOverlayBg">
-				<div class="skew">
-					<h3 class="textOverlayH3">Rouge One: Star Wars</h3>
-					<a class="textOverlayA" href="#">Felicity Jones | Diego Luna | Forest Whitaker</a>
-					<p class="textOverlayP">Action,Adventure,Sci-Fi</p>
-					<div class="textOverlayC circleBase type2"><h4 class="rating"><strong>8.1</strong></h4></div>
+			<div class="slide-content image"><a href="#" data-open="myModal"><img src="images/img.png"></a>
+				<div class="textOverlayBg">
+					<div class="skew">
+						<h3 class="textOverlayH3">Rouge One: Star Wars</h3>
+						<a class="textOverlayA" href="#">Felicity Jones | Diego Luna | Forest Whitaker</a>
+						<p class="textOverlayP">Action,Adventure,Sci-Fi</p>
+						<div class="textOverlayC circleBase type2"><h4 class="rating"><strong>8.1</strong></h4></div>
+					</div>
 				</div>
 			</div>
-		</div>
-		<div class="slide-content image"><a href="#" data-open="myModal"><img src="images/img.png"></a>
-			<div class="textOverlayBg">
-				<div class="skew">
-					<h3 class="textOverlayH3">Rouge One: Star Wars</h3>
-					<a class="textOverlayA" href="#">Felicity Jones | Diego Luna | Forest Whitaker</a>
-					<p class="textOverlayP">Action,Adventure,Sci-Fi</p>
-					<div class="textOverlayC circleBase type2"><h4 class="rating"><strong>8.1</strong></h4></div>
+			<div class="slide-content image"><a href="#" data-open="myModal"><img src="images/img.png"></a>
+				<div class="textOverlayBg">
+					<div class="skew">
+						<h3 class="textOverlayH3">Rouge One: Star Wars</h3>
+						<a class="textOverlayA" href="#">Felicity Jones | Diego Luna | Forest Whitaker</a>
+						<p class="textOverlayP">Action,Adventure,Sci-Fi</p>
+						<div class="textOverlayC circleBase type2"><h4 class="rating"><strong>8.1</strong></h4></div>
+					</div>
 				</div>
 			</div>
-		</div>
-		<div class="slide-content image"><a href="#" data-open="myModal"><img src="images/img.png"></a>
-			<div class="textOverlayBg">
-				<div class="skew">
-					<h3 class="textOverlayH3">Rouge One: Star Wars</h3>
-					<a class="textOverlayA" href="#">Felicity Jones | Diego Luna | Forest Whitaker</a>
-					<p class="textOverlayP">Action,Adventure,Sci-Fi</p>
-					<div class="textOverlayC circleBase type2"><h4 class="rating"><strong>8.1</strong></h4></div>
+			<div class="slide-content image"><a href="#" data-open="myModal"><img src="images/img.png"></a>
+				<div class="textOverlayBg">
+					<div class="skew">
+						<h3 class="textOverlayH3">Rouge One: Star Wars</h3>
+						<a class="textOverlayA" href="#">Felicity Jones | Diego Luna | Forest Whitaker</a>
+						<p class="textOverlayP">Action,Adventure,Sci-Fi</p>
+						<div class="textOverlayC circleBase type2"><h4 class="rating"><strong>8.1</strong></h4></div>
+					</div>
 				</div>
 			</div>
-		</div>
-		<div class="slide-content image"><a href="#" data-open="myModal"><img src="images/img.png"></a>
-			<div class="textOverlayBg">
-				<div class="skew">
-					<h3 class="textOverlayH3">Rouge One: Star Wars</h3>
-					<a class="textOverlayA" href="#">Felicity Jones | Diego Luna | Forest Whitaker</a>
-					<p class="textOverlayP">Action,Adventure,Sci-Fi</p>
-					<div class="textOverlayC circleBase type2"><h4 class="rating"><strong>8.1</strong></h4></div>
+			<div class="slide-content image"><a href="#" data-open="myModal"><img src="images/img.png"></a>
+				<div class="textOverlayBg">
+					<div class="skew">
+						<h3 class="textOverlayH3">Rouge One: Star Wars</h3>
+						<a class="textOverlayA" href="#">Felicity Jones | Diego Luna | Forest Whitaker</a>
+						<p class="textOverlayP">Action,Adventure,Sci-Fi</p>
+						<div class="textOverlayC circleBase type2"><h4 class="rating"><strong>8.1</strong></h4></div>
+					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-</div>
 
-
-
-
-
-
-
-<div class="row align-center ">
-	<div class="colums small-11 medium-4 button">
-		<h3 class="buttonH1">See More</h3>
+	<div class="row">
+		<div class="columns small-4" >
+			<h3 class="columnPadding">Popular</h3>
+		</div>
+		<div class="columns small-12 responsive">
+			<div class="slide-content image"><a href="#" data-open="myModal"><img src="images/img.png"></a>
+				<div class="textOverlayBg">
+					<div class="skew">
+						<h3 class="textOverlayH3">Rouge One: Star Wars</h3>
+						<a class="textOverlayA" href="#">Felicity Jones | Diego Luna | Forest Whitaker</a>
+						<p class="textOverlayP">Action,Adventure,Sci-Fi</p>
+						<div class="textOverlayC circleBase type2"><h4 class="rating"><strong>8.1</strong></h4></div>
+					</div>
+				</div>
+			</div>
+			<div class="slide-content image"><a href="#" data-open="myModal"><img src="images/img.png"></a>
+				<div class="textOverlayBg">
+					<div class="skew">
+						<h3 class="textOverlayH3">Rouge One: Star Wars</h3>
+						<a class="textOverlayA" href="#">Felicity Jones | Diego Luna | Forest Whitaker</a>
+						<p class="textOverlayP">Action,Adventure,Sci-Fi</p>
+						<div class="textOverlayC circleBase type2"><h4 class="rating"><strong>8.1</strong></h4></div>
+					</div>
+				</div>
+			</div>
+			<div class="slide-content image"><a href="#" data-open="myModal"><img src="images/img.png"></a>
+				<div class="textOverlayBg">
+					<div class="skew">
+						<h3 class="textOverlayH3">Rouge One: Star Wars</h3>
+						<a class="textOverlayA" href="#">Felicity Jones | Diego Luna | Forest Whitaker</a>
+						<p class="textOverlayP">Action,Adventure,Sci-Fi</p>
+						<div class="textOverlayC circleBase type2"><h4 class="rating"><strong>8.1</strong></h4></div>
+					</div>
+				</div>
+			</div>
+			<div class="slide-content image"><a href="#" data-open="myModal"><img src="images/img.png"></a>
+				<div class="textOverlayBg">
+					<div class="skew">
+						<h3 class="textOverlayH3">Rouge One: Star Wars</h3>
+						<a class="textOverlayA" href="#">Felicity Jones | Diego Luna | Forest Whitaker</a>
+						<p class="textOverlayP">Action,Adventure,Sci-Fi</p>
+						<div class="textOverlayC circleBase type2"><h4 class="rating"><strong>8.1</strong></h4></div>
+					</div>
+				</div>
+			</div>
+			<div class="slide-content image"><a href="#" data-open="myModal"><img src="images/img.png"></a>
+				<div class="textOverlayBg">
+					<div class="skew">
+						<h3 class="textOverlayH3">Rouge One: Star Wars</h3>
+						<a class="textOverlayA" href="#">Felicity Jones | Diego Luna | Forest Whitaker</a>
+						<p class="textOverlayP">Action,Adventure,Sci-Fi</p>
+						<div class="textOverlayC circleBase type2"><h4 class="rating"><strong>8.1</strong></h4></div>
+					</div>
+				</div>
+			</div>
+			<div class="slide-content image"><a href="#" data-open="myModal"><img src="images/img.png"></a>
+				<div class="textOverlayBg">
+					<div class="skew">
+						<h3 class="textOverlayH3">Rouge One: Star Wars</h3>
+						<a class="textOverlayA" href="#">Felicity Jones | Diego Luna | Forest Whitaker</a>
+						<p class="textOverlayP">Action,Adventure,Sci-Fi</p>
+						<div class="textOverlayC circleBase type2"><h4 class="rating"><strong>8.1</strong></h4></div>
+					</div>
+				</div>
+			</div>
+			<div class="slide-content image"><a href="#" data-open="myModal"><img src="images/img.png"></a>
+				<div class="textOverlayBg">
+					<div class="skew">
+						<h3 class="textOverlayH3">Rouge One: Star Wars</h3>
+						<a class="textOverlayA" href="#">Felicity Jones | Diego Luna | Forest Whitaker</a>
+						<p class="textOverlayP">Action,Adventure,Sci-Fi</p>
+						<div class="textOverlayC circleBase type2"><h4 class="rating"><strong>8.1</strong></h4></div>
+					</div>
+				</div>
+			</div>
+			<div class="slide-content image"><a href="#" data-open="myModal"><img src="images/img.png"></a>
+				<div class="textOverlayBg">
+					<div class="skew">
+						<h3 class="textOverlayH3">Rouge One: Star Wars</h3>
+						<a class="textOverlayA" href="#">Felicity Jones | Diego Luna | Forest Whitaker</a>
+						<p class="textOverlayP">Action,Adventure,Sci-Fi</p>
+						<div class="textOverlayC circleBase type2"><h4 class="rating"><strong>8.1</strong></h4></div>
+					</div>
+				</div>
+			</div>
+		</div>
 	</div>
-</div>
-<footer>
-	<section class="footer">
-		<div class="row align-center">
-			<div class="column small-2 medium-2 footerlogodiv">
-				<img class="movieboxlogo" src="images/movie-box.svg">
-			</div>
-		</div>
-		<div class="row align-center">
-			<div class="columns medium-8 align-center">
-				<a class="footerA" href="#">About</a>
-				<a class="footerA" href="#">Term of Use</a>
-				<a class="footerA" href="#">FAQ</a>
-				<a class="footerA" href="#">Privacy</a>
-				<a class="footerA" href="#">Contact Us</a>
-			</div>
-		</div>
-		<div class="row align-right copyrightrow">
-			<div class="columns medium-4 copyright">
-				<p>Copyright © 2016-2017 - MovieBox.io, inc.</p>
-			</div>
-		</div>
-	</section>
-</footer>
 
+
+
+
+
+
+
+	<div class="row align-center ">
+		<div class="colums small-11 medium-4 button">
+			<h3 class="buttonH1">See More</h3>
+		</div>
+	</div>
+	<footer>
+		<section class="footer">
+			<div class="row align-center">
+				<div class="column small-2 medium-2 footerlogodiv">
+					<img class="movieboxlogo" src="images/movie-box.svg">
+				</div>
+			</div>
+			<div class="row align-center">
+				<div class="columns medium-8 align-center">
+					<a class="footerA" href="#">About</a>
+					<a class="footerA" href="#">Term of Use</a>
+					<a class="footerA" href="#">FAQ</a>
+					<a class="footerA" href="#">Privacy</a>
+					<a class="footerA" href="#">Contact Us</a>
+				</div>
+			</div>
+			<div class="row align-right copyrightrow">
+				<div class="columns medium-4 copyright">
+					<p>Copyright © 2016-2017 - MovieBox.io, inc.</p>
+				</div>
+			</div>
+		</section>
+	</footer>
+
+<<<<<<< HEAD
 	</div>
 	<script src="assets/js/jquery.js"></script>
 	<script src="assets/js/foundation.min.js"></script>
@@ -500,5 +639,14 @@ Search modal -->
 	<script src="assets/js/genres.js"></script>
 	<script src="assets/js/script.js"></script>
 	
+=======
+		
+		<script src="assets/js/jquery.js"></script>
+		<script src="assets/js/foundation.min.js"></script>
+		<script src="assets/js/foundation.reveal.js"></script>
+		<script src="assets/js/slick.min.js"></script>
+		<script src="assets/js/genres.js"></script>
+		<script src="assets/js/script.js"></script>
+>>>>>>> 67a2459205d869a86d4034ed151f878ba24d6c35
 </body>
 </html>
